@@ -2,11 +2,13 @@ package vn.edu.usth.githubbrowser;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -24,11 +26,21 @@ public class IssueFragment extends AppCompatActivity implements AdapterView.OnIt
     Spinner spinner4;
     Spinner spinner5;
     Spinner spinner6;
+    Button btnBack;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.fragment_issue);
+        btnBack = findViewById(R.id.btn_back);
+        btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
 
         spinner = (Spinner) findViewById(R.id.spinner1);
         spinner.setOnItemSelectedListener(this);

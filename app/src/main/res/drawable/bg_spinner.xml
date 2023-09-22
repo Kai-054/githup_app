@@ -9,7 +9,7 @@
     </item>
     <!-- Arrow on the right -->
     <item android:left="10dp"
-          android:drawable="@drawable/arrow"
-          android:gravity="center_vertical|right">
+        android:drawable="@drawable/arrow"
+        android:gravity="center_vertical|right">
     </item>
 </layer-list>

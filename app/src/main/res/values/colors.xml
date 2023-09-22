@@ -9,6 +9,16 @@
     <color name="white">#FFFFFFFF</color>
     <color name="color_selected">#4F80E2</color>
     <color name="color_selected1">#B3BED5</color>
+    <color name="red">#FFFF0000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
     <color name="my_spinner_text_color">#FF000000</color>
     <color name="your_text_color">#FF000000</color>
+    <color name="primary">#1B023B</color>
+    <color name="secondary">#DD03DAC5</color>
+    <color name="night_mode">#6124B1</color>
+    <color name="notifications">#13B2C3</color>
+    <color name="private_account">#E6A326</color>
+    <color name="security">#D95F69</color>
 </resources>
